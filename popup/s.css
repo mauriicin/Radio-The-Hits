@@ -1,0 +1,298 @@
+@font-face {
+	font-family: "Proxima Nova";
+	font-weight: normal;
+	src: url('Proxima Nova Bold.otf');
+}
+@font-face {
+	font-family: "Proxima Nova Light";
+	font-weight: normal;
+	src: url('Proxima Nova Light.otf');
+}
+body {
+	background-image: url('bg.png');
+	margin: 0;
+	padding: 0;
+        position:relative; 
+        background-size:cover;
+}
+.logo {
+	background-image: url('logo.png');
+	width: 108px;
+	height: 103px;
+	margin: 10px 0 0 calc(-17px - 108px);
+	float: left;
+}
+.anuncio {
+	background-position: 0 0;
+	width: 728px;
+	height: 90px;
+	margin-top: 20px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.centro {
+	width: 730px;
+	margin: 2% auto;
+}
+.player {
+	background-image: url('miniatura.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 215px;
+	margin-top: 10px;
+	position: relative;
+	float: left;
+}
+.player:before {
+	content: "";
+	background-color: #59B200;
+	width: 100%;
+	height: 65px;
+	box-shadow: 0 3px 3px black;
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+}
+.avatar {
+	background-color: #fff;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	margin: 21px;
+	cursor: pointer;
+	border-radius: 6px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+	position: relative;
+	float: left;
+}
+.status {
+	width: 500px;
+	height: 140px;
+	position: relative;
+	float: left;
+}
+.desce {
+	position: absolute;
+	bottom: 15px;
+}
+.noar {
+	background-color: #6DD900;
+	border-radius: 4px;
+	padding: 5px;
+	font: bold 12px "Proxima Nova Light";
+	text-transform: uppercase;
+	float: left;
+}
+.locutor {
+	font: 23px "Proxima Nova";
+	color: #fff;
+	margin: -2px 0 0 10px;
+	text-shadow: 0 5px 10px black;
+	float: left;
+}
+.seta {
+	background-image: url('seta.png');
+	width: 16px;
+	height: 12px;
+	margin: 7px 0 0 25px;
+	float: left;
+}
+.programa {
+	font: 18px "Proxima Nova Light";
+	color: #6DD900;
+	margin-top: 3px;
+	padding: 0 0 0 13px;
+	float: left;
+}
+
+.botoes {
+	width: 150px;
+	margin: -28px auto 0 auto;
+}
+.fav {
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 100px;
+	box-shadow: 0 0 0 1px black;
+	float: left;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	    -ms-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+}
+.fav:hover {
+	background-color: #000;
+}
+.fav > .icon {
+	background-image: url('fav.png');
+	background-position: 0 0;
+	width: 18px;
+	height: 16px;
+	margin: 13px auto 0 auto;
+	display: table;
+}
+.fav:hover > .icon {
+	background-position: -18px 0;
+}
+
+.pause {
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 100px;
+	box-shadow: 0 0 0 1px black;
+	margin: -6px 10px 0 10px;
+	float: left;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	    -ms-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+}
+.pause:hover {
+	background-color: #000;
+}
+.pause > .icon {
+	background-image: url('pause.png');
+	background-position: 0 0;
+	width: 13px;
+	height: 26px;
+	margin: 13px auto 0 auto;
+	display: table;
+}
+.pause:hover > .icon {
+	background-position: -13px 0;
+}
+.play {
+	background-color: transparent;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 100px;
+	box-shadow: 0 0 0 1px black;
+	margin: -6px 10px 0 10px;
+	float: left;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	    -ms-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+}
+.play:hover {
+	background-color: #000;
+}
+.play > .icon {
+	background-image: url('play.png');
+	background-position: 0 0;
+	width: 18px;
+	height: 26px;
+	margin: 12px 14px 0 auto;
+	display: table;
+}
+.play:hover > .icon {
+	background-position: -18px 0;
+}
+
+.pedido {
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 100px;
+	box-shadow: 0 0 0 1px black;
+	float: left;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	    -ms-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+}
+.pedido:hover {
+	background-color: #000;
+}
+.pedido > .icon {
+	background-image: url('pedido.png');
+	background-position: 0 0;
+	width: 16px;
+	height: 16px;
+	margin: 13px auto 0 auto;
+	display: table;
+}
+.pedido:hover > .icon {
+	background-position: -16px 0;
+}
+
+.rede-social {
+	margin: 3px 15px 0 0;
+	float: right;
+}
+.twitter {
+	background-image: url('social.png');
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-transition: all 0.1s linear;
+	   -moz-transition: all 0.1s linear;
+	    -ms-transition: all 0.1s linear;
+	     -o-transition: all 0.1s linear;
+	        transition: all 0.1s linear;
+}
+.facebook {
+	background-image: url('social.png');
+	background-position: -66px 0;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-transition: all 0.1s linear;
+	   -moz-transition: all 0.1s linear;
+	    -ms-transition: all 0.1s linear;
+	     -o-transition: all 0.1s linear;
+	        transition: all 0.1s linear;
+}
+.twitter:hover {
+	background-position: -33px 0;
+}
+.facebook:hover {
+	background-position: -99px 0;
+}
+.interacoes {
+	background-color: rgba(0,0,0,0.4);
+	width: 425px;
+	margin-top: 20px;
+	float: left;
+}
+.interacoes > h1 {
+	font: normal 18px "Proxima Nova";
+	color: #59B200;
+	padding: 10px 20px;
+}
+.anuncio-2 {
+	width: 257px;
+	height: 224px;
+	margin-top: 20px;
+	float: right;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+.tt {
+	margin: 0px auto;
+	width: 390px;
+}
+.puxamusica {
+	font: 23px "Proxima Nova";
+	color: #fff;
+	margin: -2px 0 0 10px;
+	text-shadow: 0 5px 10px black;
+	float: left;
+}
+#player {display:none;}

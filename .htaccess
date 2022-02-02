@@ -1,0 +1,46 @@
+Options +FollowSymLinks
+Options -Indexes
+
+##################################################################
+
+# URLs
+RewriteEngine on
+RewriteBase /
+
+#RewriteCond %{HTTP_HOST} !^www\.radiothehits\.com
+#RewriteRule ^(.*)$ http://www.radiothehits.com/$1 [R=permanent,L]
+
+# Home
+RewriteRule ^inicio\/?$ index.php
+RewriteRule ^pesquisar\/?$ index.php?p=2
+
+# Menu
+RewriteRule ^radio/equipe\/?$ index.php?p=7
+RewriteRule ^radio/participe-da-equipe\/?$ index.php?p=8
+RewriteRule ^radio/grade-de-programacao\/?$ index.php?p=10
+
+# RewriteRule ^the-hits\/?$ index.php?p=1
+
+# Playhits
+RewriteRule ^playhits/musicas/(.*)/(.*)?$ index.php?p=1&id=$1
+RewriteRule ^playhits/artistas/(.*)/(.*)?$ index.php?p=3&id=$1
+RewriteRule ^playhits/colaborar\/?$ index.php?p=5
+
+# Notícias
+RewriteRule ^noticias/ler/(.*)/(.*)?$ index.php?p=4&id=$1
+
+# Rádio
+RewriteRule ^radio/top-10\/?$ index.php?p=6
+
+# Outros
+RewriteRule ^paginas/(.*)/(.*)?$ index.php?p=9&id=$1
+
+##################################################################
+
+# Erros
+ErrorDocument 400     /404/index.html
+ErrorDocument 401     /404/index.html
+ErrorDocument 403     /404/index.html
+ErrorDocument 404     /404/index.html
+ErrorDocument 500     /500/index.html
+ErrorDocument 503     /503/index.html

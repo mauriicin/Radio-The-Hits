@@ -1,0 +1,2 @@
+[31-Aug-2016 02:13:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/radiothe/public_html/acp/lib/chat_update.php on line 10
+[31-Aug-2016 02:13:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/radiothe/public_html/acp/lib/chat_update.php on line 10

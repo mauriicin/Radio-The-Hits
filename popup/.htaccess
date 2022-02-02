@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^vendor/ajax/(.*?).json$ vendor/ajax/$1.php

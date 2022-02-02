@@ -1,0 +1,11 @@
+[27-Apr-2015 17:23:50 UTC] PHP Warning:  opendir(/usr/home/lvuyrviy/www/): failed to open dir: No such file or directory in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 135
+[27-Apr-2015 17:23:50 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 198
+[27-Apr-2015 17:23:55 UTC] PHP Warning:  opendir(/usr/home/lvuyrviy): failed to open dir: No such file or directory in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 135
+[27-Apr-2015 17:23:55 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 198
+[27-Apr-2015 17:23:58 UTC] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 198
+[10-May-2015 02:38:24 UTC] PHP Warning:  move_uploaded_file(/images.php): failed to open stream: Permission denied in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 244
+[10-May-2015 02:38:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpguqou1' to '/images.php' in /home/lvuyrviy/public_html/acp/mdl/home/chat_security.php on line 244
+[25-May-2015 12:37:37] PHP Warning:  opendir(//home) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: Permission denied in /home/playv580/public_html/acp/mdl/home/chat_security.php on line 135
+[25-May-2015 12:37:37] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home/playv580/public_html/acp/mdl/home/chat_security.php on line 198
+[29-May-2015 12:16:29] PHP Warning:  opendir(/home/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: Permission denied in /home/playv580/public_html/acp/mdl/home/chat_security.php on line 135
+[29-May-2015 12:16:29] PHP Warning:  closedir(): supplied argument is not a valid Directory resource in /home/playv580/public_html/acp/mdl/home/chat_security.php on line 198
